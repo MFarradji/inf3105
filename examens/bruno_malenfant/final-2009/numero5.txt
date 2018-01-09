@@ -1,0 +1,21 @@
+a) Modifications
+1. La couleur de W change à la couleur de P.
+2. La couleur de P change à noir.
+3. La couleur de G change à noir.
+4. Faire une rotation vers la droite sous P.
+
+b)
+Avant
+P : déséquilibre
+Z : hauteur noire = 0+
+W : hauteur noire = 1+
+G : hauteur noire = 0+
+D : hauteur noire = 0+
+
+Après
+P : hauteur noire = 1+
+Z : hauteur noire = 0+ (inchangée)
+W : hauteur noire = 2+ (équilibré)
+G : hauteur noire = 1+ (inchangée)
+D : hauteur noire = 1+ (inchangé)
+

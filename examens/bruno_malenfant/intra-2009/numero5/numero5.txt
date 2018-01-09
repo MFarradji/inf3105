@@ -1,0 +1,15 @@
+a) Expliquez ce qu'est une méthode abstraite pure.
+
+C'est une méthode sans définition.
+
+b) Expliquez ce qu'est une classe abstraite.
+
+Une classe qui contient au moins une méthode abstraite pure est considérée une classe abstraite.
+
+Une méthode abstraite pure doit être redéfinie dans une sous-classe,
+sinon la sous-classe est aussi une classe abstraite pure.
+
+c) Quelle est l'utilité d'avoir des classes abstraites pures ?
+
+On peut créer des pointeurs vers la classe abstraite pure et utiliser le polymorphisme.
+Ces pointeurs peuvent être déréférencés quand ils pointent vers des sous-classes non abstraites pures.

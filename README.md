@@ -19,7 +19,7 @@
 * [Bruno Malenfant](http://www.labunix.uqam.ca/~malenfant_b/inf3105/inf3105.html)
 * [cplusplus.com](http://www.cplusplus.com/)
 * [cppreference.com](http://en.cppreference.com/w/)
-* [MIT OpenCourseWare](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+* [MIT OpenCourseWare](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 
 ## Arbre rouge-noir
 * [Wikipedia](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)

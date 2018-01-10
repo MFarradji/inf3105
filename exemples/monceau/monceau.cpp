@@ -6,7 +6,7 @@ using namespace std;
 Monceau::Monceau() {}
 
 void Monceau::afficher() {
-  for (int i = 0; i < tab.size(); ++i)
+  for (unsigned i = 0; i < tab.size(); ++i)
     cout << tab[i] << ' ';
   cout << endl;
 }
@@ -30,10 +30,10 @@ void Monceau::inserer(int valeur) {
 void Monceau::supprimerMin() {
   echanger(0, tab.size() - 1);
   tab.pop_back();
-  int indice = 0;
+  unsigned indice = 0;
   bool descendre = false;
   do {
-    int suivant = 2 * indice + 1;
+    unsigned suivant = 2 * indice + 1;
     descendre = suivant < tab.size();
     if (descendre) {
       if (suivant + 1 < tab.size() && tab[suivant + 1] < tab[suivant])

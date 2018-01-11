@@ -5,6 +5,8 @@
 */
 
 #include <iostream>
+#include <limits>
+
 #include "point.h"
 
 using namespace std;
@@ -61,16 +63,25 @@ int main5(int argc, const char** args)
 }
 */
 
-int main(int argc, const char** args)
-{
-  int nb;
-  cin >> nb;
-  Point tableau[nb];
+int main(void) {
+  int n;
+  cin >> n;
+  Point tableau[n];
+  double min = numeric_limits<double>::infinity();
 
-  for (int i = 0; i < nb; i++) {
+  for (int i = 0; i < n; i++) {
     cin >> tableau[i];
-    cout << tableau[i] << endl;
+    for (int j = 0; j < i; j++) {
+      //cout << tableau[i] << " " << tableau[j] << " ";
+      double distance = tableau[i].distance(tableau[j]);
+      //cout << distance << endl;
+      if (distance < min) {
+        min = distance;
+      }
+    }
   }
+
+  cout << "distance entre les 2 points les plus proches: " << min << endl;
 
   return 0;
 }

@@ -1,8 +1,5 @@
-# option -g pour avoir les infos de débogage
-OPTIONS = -g -O0 -Wall
-
 # option -O3 pour le code optimisé
-#OPTIONS = -O3 -Wall
+OPTIONS = -O3 -W -Wall
 
 # Syntaxe : cible : dépendance1 dépendance2 ...
 # Ensuite, la ou les ligne(s) débutant par une tabulation (\t) donne les commandes pour construire une cible

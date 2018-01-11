@@ -7,6 +7,8 @@
 #include <iostream>
 #include "point.h"
 
+using namespace std;
+
 /* 
    Allez-y étape par étape. C'est la seule façon de ne pas introduire de bogue!
 
@@ -18,7 +20,7 @@
  */
 
 /*
-int main(int argc, const char** args)
+int main1(int argc, const char** args)
 {
   std::cout << "Bienvenue au cours INF3105 en C++ !" << std::endl;
   return 0;
@@ -39,7 +41,7 @@ int main3(int argc, const char** args)
   return 0;
 }
 
-int main(int argc, const char** args)
+int main4(int argc, const char** args)
 {
   Point point;
   std::cout << "Entrez un point:" << std::endl;
@@ -48,9 +50,8 @@ int main(int argc, const char** args)
   std::cout << point << std::endl;
   return 0;
 }
-*/
 
-int main(int argc, const char** args)
+int main5(int argc, const char** args)
 {
   Point a(0,0);
   Point b(4,3);
@@ -58,16 +59,18 @@ int main(int argc, const char** args)
   std::cout << "Distance("<< a << "," << b << ")=" << d << std::endl;
   return 0;
 }
+*/
 
-/*
-int main6(int argc, const char** args)
+int main(int argc, const char** args)
 {
   int nb;
-  std::cin >> nb;
+  cin >> nb;
+  Point tableau[nb];
 
+  for (int i = 0; i < nb; i++) {
+    cin >> tableau[i];
+    cout << tableau[i] << endl;
+  }
 
   return 0;
 }
-
-
-*/

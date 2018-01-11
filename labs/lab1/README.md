@@ -29,7 +29,7 @@ ui = i
 
 où i = 0..n-1
 
-somme = nombre de commparaisons
+somme = nombre de comparaisons
 
 somme = (i + 1) * (2u0 + ir) / 2
 

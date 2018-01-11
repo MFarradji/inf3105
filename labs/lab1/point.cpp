@@ -1,8 +1,6 @@
 /*
-  à compléter ...
-
+2018-01-11
 */
-
 
 #include <assert.h>
 #include <math.h>
@@ -13,17 +11,16 @@ Point::Point(const Point& point)
 {
 }
 
-Point::Point(float _x, float _y) 
+Point::Point(double _x, double _y) 
   : x(_x), y(_y)
 {
 }
 
-
-float Point::distance(const Point& point) const {
-  // À compléter
-  return 0;
+double Point::distance(const Point& point) const {
+  double dx = x - point.x;
+  double dy = y - point.y;
+  return sqrt(dx * dx + dy * dy);
 }
-
 
 std::ostream& operator << (std::ostream& os, const Point& point) {
   os << "(" << point.x << "," << point.y << ")";
@@ -41,5 +38,3 @@ std::istream& operator >> (std::istream& is, Point& point) {
   }
   return is;
 }
-
-

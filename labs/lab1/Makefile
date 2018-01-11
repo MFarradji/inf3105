@@ -9,10 +9,10 @@ OPTIONS = -g -O0 -Wall
 lab1: lab1.o point.o
 	g++ $(OPTIONS) -o lab1 lab1.o point.o
 
-lab1.o: lab1.cpp
+lab1.o: lab1.cpp point.h
 	g++ $(OPTIONS) -c -o lab1.o lab1.cpp
 
-point.o: point.cpp
+point.o: point.cpp point.h
 	g++ $(OPTIONS) -c -o point.o point.cpp
 
 clean :

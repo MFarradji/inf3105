@@ -1,6 +1,7 @@
 /*
-  à compléter ...
-
+  UQAM / Département d'informatique
+  INF3105
+  Laboratoire 1
 */
 
 // Ces deux lignes (directives au préprocesseur) permettent d'éviter d'inclure 2 fois ce .h à la compilation.
@@ -10,22 +11,20 @@
 
 #include <iostream>
 
-
 class Point {
   public:
     Point(){}
-    Point(float x, float y);
+    Point(double x, double y);
     Point(const Point&);
 
-    float distance(const Point&) const;
+    double distance(const Point&) const;
 
-  //private: // ne pas décommenter tout de suite
-    float x;
-    float y;
+  private:
+    double x;
+    double y;
 
   friend std::ostream& operator << (std::ostream&, const Point&);
   friend std::istream& operator >> (std::istream&, Point&);
 };
 
 #endif // fin du #if plus haut
-

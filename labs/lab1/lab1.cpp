@@ -23,9 +23,8 @@ int main(int argc, const char** args)
   std::cout << "Bienvenue au cours INF3105 en C++ !" << std::endl;
   return 0;
 }
-*/
 
-int main(int argc, const char** args)
+int main2(int argc, const char** args)
 {
   Point point(3, 105);
   std::cout << point;
@@ -33,7 +32,6 @@ int main(int argc, const char** args)
   return 0;
 }
 
-/*
 int main3(int argc, const char** args)
 {
   Point point(1.2,5.7);
@@ -41,8 +39,7 @@ int main3(int argc, const char** args)
   return 0;
 }
 
-
-int main4(int argc, const char** args)
+int main(int argc, const char** args)
 {
   Point point;
   std::cout << "Entrez un point:" << std::endl;
@@ -51,8 +48,9 @@ int main4(int argc, const char** args)
   std::cout << point << std::endl;
   return 0;
 }
+*/
 
-int main5(int argc, const char** args)
+int main(int argc, const char** args)
 {
   Point a(0,0);
   Point b(4,3);
@@ -61,6 +59,7 @@ int main5(int argc, const char** args)
   return 0;
 }
 
+/*
 int main6(int argc, const char** args)
 {
   int nb;

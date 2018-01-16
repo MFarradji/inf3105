@@ -28,7 +28,7 @@ rx = ry; // rx est maintenant un alias pour y
 
 ## 3. Types de passage de paramètres
 ```cpp
-void fonction(int m, int* x, int& y, int&* z) {
+void fonction(int m, int* x, int& y, int*& z) {
   // ...
 }
 

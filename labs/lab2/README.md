@@ -75,7 +75,7 @@ class Foo {
 
     bool operator == (const Foo& f) const; // surcharge de l'opérateur ==
 
-    double test(int k); // // prototype de la méthode
+    double test(int k); // prototype de la méthode
 };
 ```
 

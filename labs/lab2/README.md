@@ -47,6 +47,71 @@ Lors de l'appel de la fonction, le passage de paramètres se déroule ainsi.
 * y est un alias pour i.
 * z est un alias pour j (référence d'un pointeur)
 
+## 4. Classes, constructeurs et destructeurs
+
+**foo.hpp**
+```cpp
+// inclure le fichier foo.hpp 1 seule fois lors de la compilation
+#pragma once
+
+// déclaration de la classe Foo
+class Foo {
+  private:
+    // les variables et méthodes déclarées en bas sont privées
+    int i = 0; // initialisation possible avec c++11
+    char c = 'a';
+
+    void bar(); // prototype de la méthode
+
+  public:
+    // les variables et méthodes déclarées en bas sont publiques
+    bool b = false;
+
+    Foo(); // constructeur sans paramètres
+    Foo(int j); // constructeur avec un paramètre
+    Foo(const Foo& f); // constructeur par copie
+
+    ~Foo(); // destructeur
+
+    bool operator == (const Foo& f) const; // surcharge de l'opérateur ==
+
+    double test(int k); // // prototype de la méthode
+};
+```
+
+**foo.cpp**
+```cpp
+#include "foo.hpp"
+
+// implémentations des méthodes de la classe Foo
+Foo::Foo() {}
+
+Foo::Foo(int j) : i(j) {}
+
+Foo::Foo(const Foo& f) : i(f.i) {}
+
+// prototype de la méthode bar()
+void Foo::bar() {
+  return;
+}
+
+Foo::~Foo() {
+  // rien à faire car aucune allocation dynamique
+}
+
+bool Foo::operator == (const Foo& f) const {
+  if (this == &f) {
+    return true;
+  }
+
+  return i == f.i;
+}
+
+double Foo::test(int k) {
+  return 1.0;
+}
+```
+
 ## Sources
 * [cplusplus.com](http://www.cplusplus.com/doc/tutorial/pointers/)
 * [tutorialspoint.com](https://www.tutorialspoint.com/cplusplus/cpp_references.htm)

@@ -3,15 +3,15 @@
 #include "point.hpp"
 
 Point::Point(double _x, double _y) : x(_x), y(_y) {
-  cerr << "Point(double, double)" << endl;
+  cerr << "Point(double, double) " << this << endl;
 }
 
 Point::Point(const Point& point) : x(point.x), y(point.y) {
-  cerr << "Point(const Point&)" << endl;
+  cerr << "Point(const Point&) " << this << endl;
 }
 
 Point::~Point() {
-  cerr << "~Point()" << endl;
+  cerr << "~Point() " << this << endl;
 }
 
 double Point::distance(const Point& point) const {

@@ -16,7 +16,9 @@ void test(Point p1, Point& p2, const Point& p3, Point* p4) {
 }
 
 int main() {
-  Point a, b(3, 4), c(0, 5);
+  Point a;
+  Point b(3, 4);
+  Point c(0, 5);
   Point* d = new Point(5, 0);
   test(a, b, c, d);
   cout << a << " " << b << " " << c << " " << *d << endl;

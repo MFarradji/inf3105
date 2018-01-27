@@ -1,4 +1,5 @@
 /******   Annexe A: progA.cpp   *****/
+
 #include <iostream>
 
 int compte = 0;

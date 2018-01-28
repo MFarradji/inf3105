@@ -21,6 +21,9 @@
 * [cppreference.com](http://en.cppreference.com/w/)
 * [MIT OpenCourseWare](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 
+## Complexité algorithmique
+* [Gaurav Sen](https://www.youtube.com/watch?v=fZc3ijGM0aM&t=322s)
+
 ## Arbre rouge-noir
 * [Wikipedia](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
 * [Visualisation](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)

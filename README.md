@@ -29,6 +29,7 @@
 * [Visualisation](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)
 
 ## Graphes
+* [Graph Theory Basics](https://tech.io/playgrounds/5470/graph-theory-basics/basics)
 * [Parcours en profondeur](https://www.codingame.com/learn/DFS)
 * [Parcours en largeur](https://www.codingame.com/learn/BFS)
 * [Algorithme de Dijkstra](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)

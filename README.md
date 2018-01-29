@@ -31,4 +31,5 @@
 ## Graphes
 * [Parcours en profondeur](https://www.codingame.com/learn/DFS)
 * [Parcours en largeur](https://www.codingame.com/learn/BFS)
+* [Algorithme de Dijkstra](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 * [A*](https://en.wikipedia.org/wiki/A*_search_algorithm)

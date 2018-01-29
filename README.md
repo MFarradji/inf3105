@@ -27,3 +27,8 @@
 ## Arbre rouge-noir
 * [Wikipedia](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
 * [Visualisation](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)
+
+## Graphes
+* [Parcours en profondeur](https://www.codingame.com/learn/DFS)
+* [Parcours en largeur](https://www.codingame.com/learn/BFS)
+* [A*](https://en.wikipedia.org/wiki/A*_search_algorithm)

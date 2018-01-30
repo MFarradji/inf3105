@@ -32,5 +32,6 @@
 * [Graph Theory Basics](https://tech.io/playgrounds/5470/graph-theory-basics/basics)
 * [Parcours en profondeur](https://www.codingame.com/learn/DFS)
 * [Parcours en largeur](https://www.codingame.com/learn/BFS)
+* [Dijkstra's Algorithm - Tech.io](https://tech.io/playgrounds/1608/shortest-paths-with-dijkstras-algorithm/introduction)
 * [Algorithme de Dijkstra](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 * [A*](https://en.wikipedia.org/wiki/A*_search_algorithm)

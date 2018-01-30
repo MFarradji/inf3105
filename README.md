@@ -19,19 +19,19 @@
 * [Bruno Malenfant](http://www.labunix.uqam.ca/~malenfant_b/inf3105/inf3105.html)
 * [cplusplus.com](http://www.cplusplus.com/)
 * [cppreference.com](http://en.cppreference.com/w/)
-* [MIT OpenCourseWare](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+* [MIT OpenCourseWare - YouTube](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 
 ## Complexité algorithmique
-* [Gaurav Sen](https://www.youtube.com/watch?v=fZc3ijGM0aM&t=322s)
+* [Gaurav Sen - YouTube](https://www.youtube.com/watch?v=fZc3ijGM0aM&t=322s)
 
 ## Arbre rouge-noir
-* [Wikipedia](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+* [Arbre rouge-noir - Wikipédia](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
 * [Visualisation](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)
 
 ## Graphes
-* [Graph Theory Basics](https://tech.io/playgrounds/5470/graph-theory-basics/basics)
-* [Parcours en profondeur](https://www.codingame.com/learn/DFS)
-* [Parcours en largeur](https://www.codingame.com/learn/BFS)
-* [Dijkstra's Algorithm - Tech.io](https://tech.io/playgrounds/1608/shortest-paths-with-dijkstras-algorithm/introduction)
-* [Algorithme de Dijkstra](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
-* [A*](https://en.wikipedia.org/wiki/A*_search_algorithm)
+* [Théorie des graphes - Tech.io](https://tech.io/playgrounds/5470/graph-theory-basics/basics)
+* [Parcours en profondeur - CodinGame](https://www.codingame.com/learn/DFS)
+* [Parcours en largeur - CodinGame](https://www.codingame.com/learn/BFS)
+* [Algorithme de Dijkstra - Tech.io](https://tech.io/playgrounds/1608/shortest-paths-with-dijkstras-algorithm/introduction)
+* [Algorithme de Dijkstra - Wikipédia](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+* [A* - Wikipédia](https://en.wikipedia.org/wiki/A*_search_algorithm)

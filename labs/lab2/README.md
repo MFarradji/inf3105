@@ -23,7 +23,7 @@ int& rx = x; // déclare un alias rx pour x
 rx = 2; // change la valeur de x pour 2
 int y = 3;
 int& ry = y;
-rx = ry; // rx est maintenant un alias pour y
+rx = ry; // change la valeur de rx pour la valeur de ry (3)
 ```
 
 ## 3. Types de passage de paramètres

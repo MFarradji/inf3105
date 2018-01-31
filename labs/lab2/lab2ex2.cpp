@@ -24,7 +24,7 @@ int main() {
   cout << "a = " << a << " b = " << b << " c = " << c << " d = " << d << endl;
   cout << "ra = " << ra << " rb = " << rb << " pc = " << pc << " pd = " << pd << endl;
 
-  ra = rb;
+  ra = rb; // copie de la valeur de rb dans ra
   cout << "a = " << a << " b = " << b << " c = " << c << " d = " << d << endl;
   cout << "ra = " << ra << " rb = " << rb << " pc = " << pc << " pd = " << pd << endl;
 

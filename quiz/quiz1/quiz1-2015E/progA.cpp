@@ -16,8 +16,8 @@ bool f2(int* tab, int n) {
   for (int i = 0; i < n; i++)
     if (tab[i] % 2 == 0)
       for (int j = i + 1; j < n; j++)
-       if (tab[j] == tab[i])
-         return true;
+        if (tab[j] == tab[i])
+          return true;
   return false;
 }
 

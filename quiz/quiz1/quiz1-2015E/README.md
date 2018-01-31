@@ -9,7 +9,7 @@
 * O(n²) < O(n³)
 
 ## Question 3
-Affiche F3 lorsque 2 éléments distincts multipliés ensemble donnent un autre élément.
+Affiche F3 lorsque 2 éléments distincts multipliés ensemble donnent un troisième élément distinct.
 
 ## Question 4
 * O(n³)
@@ -42,7 +42,7 @@ O(n²)
 * Un ensemble de fonctions dont la croissance est similaire
 
 ## Question 11
-O(n³)
+O(n³) + O(n²) + O(n³) = O(n³)
 
 ## Question 12
 * compte = 2
@@ -51,7 +51,7 @@ O(n³)
 * O(n log n)
 
 ## Question 14
-Affiche F2 lorsque le tableau contient 2 éléments pairs égaux.
+Affiche F2 lorsque le tableau contient 2 éléments pairs distincts égaux.
 
 ## Question 15
 Affiche F1 lorsque la somme de deux cases est égale à une case au milieu des deux.

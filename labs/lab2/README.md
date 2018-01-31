@@ -61,7 +61,7 @@ class Foo {
     int i = 0; // initialisation possible avec c++11
     char c = 'a';
 
-    void bar(); // prototype de la méthode
+    void bar(); // prototype de la méthode bar
 
   public:
     // les variables et méthodes déclarées en bas sont publiques
@@ -75,7 +75,7 @@ class Foo {
 
     bool operator == (const Foo& f) const; // surcharge de l'opérateur ==
 
-    double test(int k); // prototype de la méthode
+    double test(int k);
 };
 ```
 
@@ -90,7 +90,7 @@ Foo::Foo(int j) : i(j) {}
 
 Foo::Foo(const Foo& f) : i(f.i) {}
 
-// prototype de la méthode bar()
+// implémentation de la méthode bar
 void Foo::bar() {
   return;
 }
@@ -100,6 +100,7 @@ Foo::~Foo() {
 }
 
 bool Foo::operator == (const Foo& f) const {
+  // vérifier s'il s'agit de la même instance
   if (this == &f) {
     return true;
   }

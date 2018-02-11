@@ -18,3 +18,6 @@ main() {
         Vider la ligne
 }
 ```
+
+## Recherche avec l'étoile de Kleene (cas général)
+indice: programmation dynamique

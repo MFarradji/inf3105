@@ -24,6 +24,9 @@
 ## Complexité algorithmique
 * [Gaurav Sen - YouTube](https://www.youtube.com/watch?v=fZc3ijGM0aM&t=322s)
 
+## Arbre AVL
+* [Erik Demaine - YouTube](https://www.youtube.com/watch?v=FNeL18KsWPc)
+
 ## Arbre rouge-noir
 * [Arbre rouge-noir - Wikipédia](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
 * [Visualisation](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)

@@ -14,13 +14,6 @@
 11. graphe
 12. table de hachage
 
-## Références
-* [Éric Beaudry](http://ericbeaudry.ca/INF3105/)
-* [Bruno Malenfant](http://www.labunix.uqam.ca/~malenfant_b/inf3105/inf3105.html)
-* [cplusplus.com](http://www.cplusplus.com/)
-* [cppreference.com](http://en.cppreference.com/w/)
-* [MIT OpenCourseWare - YouTube](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-
 ## Complexité algorithmique
 * [Gaurav Sen - YouTube](https://www.youtube.com/watch?v=fZc3ijGM0aM&t=322s)
 
@@ -39,3 +32,10 @@
 * [Algorithme de Dijkstra - Tech.io](https://tech.io/playgrounds/1608/shortest-paths-with-dijkstras-algorithm/introduction)
 * [Algorithme de Dijkstra - Wikipédia](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 * [A* - Wikipédia](https://en.wikipedia.org/wiki/A*_search_algorithm)
+
+## Références
+* [Éric Beaudry](http://ericbeaudry.ca/INF3105/)
+* [Bruno Malenfant](http://www.labunix.uqam.ca/~malenfant_b/inf3105/inf3105.html)
+* [cplusplus.com](http://www.cplusplus.com/)
+* [cppreference.com](http://en.cppreference.com/w/)
+* [MIT OpenCourseWare - YouTube](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)

@@ -26,6 +26,7 @@
 
 ## Arbre AVL
 * [Erik Demaine - YouTube](https://www.youtube.com/watch?v=FNeL18KsWPc)
+* [Exercices](/exercices/arbres-avl)
 
 ## Arbre rouge-noir
 * [Arbre rouge-noir - Wikipédia](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)

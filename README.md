@@ -19,6 +19,7 @@
 
 ## Arbre AVL
 * [Erik Demaine - YouTube](https://www.youtube.com/watch?v=FNeL18KsWPc)
+* [Geeks for Geeks](https://www.geeksforgeeks.org/?p=17679)
 * [Exercices](/exercices/arbres-avl)
 
 ## Arbre rouge-noir

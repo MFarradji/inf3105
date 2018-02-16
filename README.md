@@ -40,3 +40,4 @@
 * [cplusplus.com](http://www.cplusplus.com/)
 * [cppreference.com](http://en.cppreference.com/w/)
 * [MIT OpenCourseWare - YouTube](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+* [Tunghai University](http://www2.thu.edu.tw/~emtools/Adv.%20Data%20Structure/AVL%20Tree/AVLTrees02.pdf)

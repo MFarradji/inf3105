@@ -14,10 +14,7 @@ Un arbre rouge-noir est un arbre binare de recherche (ABR) balancé.
 2. La racine est noire.
 3. Toutes les sentinelles (NIL) sont noires.
 4. Si un noeud est rouge, alors ses 2 enfants sont noirs.
-5. Chaque chemin partant d'un noeud vers ses sentinelles descendantes contient le même nombre de noeuds noirs.
-
-## Définition
-La profondeur d'un noeud est le nombre de noeuds noirs sur le chemin de la racine vers ce noeud.
+5. Chaque chemin partant d'un noeud vers ses sentinelles descendantes contient le même nombre de noeuds noirs (hauteur noire).
 
 ## Exemple
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Red-black_tree_example.svg" width="675" height="325">

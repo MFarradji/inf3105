@@ -25,7 +25,7 @@
 ## Arbre rouge-noir
 * [Arbre rouge-noir - Wikipédia](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
 * [Théorie](/theorie/arbre-rouge-noir)
-* [Visualisation](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)
+* [Visualisation](http://www.cs.armstrong.edu/liang/animation/web/RBTree.html)
 
 ## Graphes
 * [Théorie des graphes - Tech.io](https://tech.io/playgrounds/5470/graph-theory-basics/basics)

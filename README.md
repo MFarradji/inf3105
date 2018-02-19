@@ -20,10 +20,11 @@
 ## Arbre AVL
 * [Erik Demaine - YouTube](https://www.youtube.com/watch?v=FNeL18KsWPc)
 * [Geeks for Geeks](https://www.geeksforgeeks.org/?p=17679)
-* [Exercices](/exercices/arbres-avl)
+* [Exercices](/exercices/arbre-avl)
 
 ## Arbre rouge-noir
 * [Arbre rouge-noir - Wikipédia](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+* [Théorie](/theorie/arbre-rouge-noir)
 * [Visualisation](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)
 
 ## Graphes
@@ -40,4 +41,5 @@
 * [cplusplus.com](http://www.cplusplus.com/)
 * [cppreference.com](http://en.cppreference.com/w/)
 * [MIT OpenCourseWare - YouTube](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+* [Univerity of Washington](https://courses.cs.washington.edu/)
 * [Tunghai University](http://www2.thu.edu.tw/~emtools/Adv.%20Data%20Structure/AVL%20Tree/AVLTrees02.pdf)

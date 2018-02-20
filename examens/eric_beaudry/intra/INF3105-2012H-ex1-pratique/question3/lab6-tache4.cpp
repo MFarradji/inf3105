@@ -93,7 +93,11 @@ double Historique::estimerTemperature(double date) const {
   if (p2 != nullptr) {
     return p2->temperature; 
   }
-  Paire prec = arbre[arbre.rechercherEgalOuPrecedent(p1)];
+  ArbreAVL<Paire>::Iterateur iter = arbre.rechercherEgalOuPrecedent(p1);
+  if (!iter) {
+    return (*arbre.debut()).temperature;
+  }
+  const Paire& prec = *iter;
   Paire suiv = arbre[arbre.rechercherEgalOuSuivant(p1)];
   // interpolation linéaire
   // y = y0 * (x1 - x) + y1 * (x - x0)) / (x1 - x0);
@@ -101,24 +105,29 @@ double Historique::estimerTemperature(double date) const {
 }
 
 double Historique::calculerMoyenne(double debut, double fin) const {
-  Paire p1(debut, 0);
-  Paire p2(fin, 0);
-  ArbreAVL<Paire>::Iterateur it1 = arbre.rechercher(p1);
-  ArbreAVL<Paire>::Iterateur it2 = arbre.rechercher(p2);
-
-  double t1 = it1 ? (*it1).temperature : estimerTemperature(debut);
-  double t2 = it2 ? (*it2).temperature : estimerTemperature(fin);
-
-  double total = t1 + t2;
-  int n = 2;
-  if (it1 && it2) {
-    it1++;
-    while (it1 != it2) {
-      total += (*it1).temperature;
-      n++;
-      it1++;
+  ArbreAVL<Paire>::Iterateur iter = arbre.rechercherEgalOuPrecedent(Paire(debut, 0));
+  if (!iter) iter = arbre.debut();
+  // 1 = debut interval, 2 = fin interval, d = date, t = temperature
+  double d1, d2, t1, t2;
+  double somme = 0; // somme de temperature * duree
+  while (iter && (*iter).date < fin) {
+    if ((*iter).date < debut) {
+      d1 = debut;
+      t1 = estimerTemperature(debut);
+    } else {
+      d1 = (*iter).date;
+      t1 = (*iter).temperature;
     }
+    ++iter;
+    if (!iter) break;
+    if ((*iter).date > fin) {
+      d2 = fin;
+      t2 = estimerTemperature(fin);
+    } else {
+      d2 = (*iter).date;
+      t2 = (*iter).temperature;
+    }
+    somme += ((t2 + t1) / 2.0) * (d2 - d1);
   }
-
-  return total / n;
+  return somme / (fin - debut); // moyenne pondérée
 }

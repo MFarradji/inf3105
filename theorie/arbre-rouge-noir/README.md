@@ -123,14 +123,14 @@ Dans tous les cas, passer à l'étape 2 en prenant P comme noeud courant.
 
 ### Cas 4 : P est rouge, S, S<sub>L</sub> et S<sub>R</sub> sont noirs
 
-* Si P est rouge, S, S<sub>L</sub> et S<sub>R</sub> sont noirs
+* Si P est rouge et S, S<sub>L</sub> et S<sub>R</sub> sont noirs :
   * Changer la couleur de S pour rouge.
   * Changer la couleur de P pour noir.
 * Sinon passer au cas 5.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Red-black_tree_delete_case_4_as_svg.svg" width="624" height="237">
 
-### Cas 5 : S est noir,  S<sub>L</sub> est rouge, S<sub>R</sub> est noir
+### Cas 5
 
 * Si S est noir :
   * Si N est l'enfant gauche de P, S<sub>L</sub> est rouge et S<sub>R</sub> est noir :
@@ -141,7 +141,6 @@ Dans tous les cas, passer à l'étape 2 en prenant P comme noeud courant.
     * Faire une rotation droite-gauche sous S.
     * Changer la couleur de S pour rouge.
     * Change la couleur de S<sub>R</sub> pour noir.
-* Sinon vérifier cas de droite...
 * Sinon passer au cas 6.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Red-black_tree_delete_case_5_as_svg.svg" width="453" height="258">

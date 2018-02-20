@@ -101,7 +101,7 @@ Dans tous les cas, passer à l'étape 2 en prenant P comme noeud courant.
 
 ### Cas 2 : S est rouge
 
-* Si S est rouge:
+* Si S est rouge :
   * Si N est l'enfant gauche de P :
     * Faire une rotation droite-gauche sous P.
   * Sinon N est l'enfant droit de P :
@@ -114,7 +114,7 @@ Dans tous les cas, passer à l'étape 2 en prenant P comme noeud courant.
 
 ### Cas 3 : P, S, S<sub>L</sub> et S<sub>R</sub> sont noirs
 
-* Si P, S, S<sub>L</sub> et S<sub>R</sub> sont noirs
+* Si P, S, S<sub>L</sub> et S<sub>R</sub> sont noirs :
   * Changer la couleur de S pour rouge.
   * Revenir au cas 1.
 * Sinon passer au cas 4.

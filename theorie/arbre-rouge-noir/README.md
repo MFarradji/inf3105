@@ -27,6 +27,8 @@ Un arbre rouge-noir est un arbre binare de recherche (ABR) balancé.
 | G | noeud grandparent de N (parent de P) |
 | S | noeud frère de N (enfant de P) |
 | U | noeud oncle de N (enfant de G) |
+| S<sub>L</sub> | enfant gauche de S |
+| S<sub>R</sub> | enfant droit de S |
 
 * Dans le cas 6 de la suppression, un noeud blanc représente un noeud rouge ou noir.
 * Un triangle numéroté représente un sous-arbre de profondeur indéterminée. Un cercle noir au dessus du triangle indique que sa profondeur est plus grande de 1 par rapport à un autre triangle sans cercle.
@@ -80,3 +82,12 @@ Dans tous les cas, passer à l'étape 2 en prenant P comme noeud courant.
 * Changer la couleur de G pour rouge.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Red-black_tree_insert_case_5.svg" width="841" height="245">
+
+## Supression
+
+1. Trouver le noeud à effacer avec une recherche binaire.
+2. Si le noeud a 2 enfants, le remplacer par son successeur ou prédecesseur, puis effacer le successeur ou prédecesseur.
+3. Rendu à ce point, le noeud à effacer a 1 ou 2 sentinelles.
+4. Si le noeud est rouge, le supprimer.
+5. Sinon si le noeud est noir et son enfant est rouge, promouvoir l'enfant et le recolorer en noir.
+6. Sinon c'est que le noeud noir avec 2 sentinelles, 6 cas sont posssibles.

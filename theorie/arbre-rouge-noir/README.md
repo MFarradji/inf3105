@@ -90,4 +90,71 @@ Dans tous les cas, passer à l'étape 2 en prenant P comme noeud courant.
 3. Rendu à ce point, le noeud à effacer a 1 ou 2 sentinelles.
 4. Si le noeud est rouge, le supprimer.
 5. Sinon si le noeud est noir et son enfant est rouge, promouvoir l'enfant et le recolorer en noir.
-6. Sinon c'est que le noeud noir avec 2 sentinelles, 6 cas sont posssibles.
+6. Sinon c'est que le noeud est noir avec 2 sentinelles, 6 cas sont posssibles.
+
+### Cas 1 : N est la racine de l'arbre
+
+* Si N est la racine, il n'y rien à faire.
+* Sinon passer au cas 2.
+
+*Note: Dans les cas 2, 5 et 6, le cas où N est l'enfant gauche de P est considéré. Dans le cas où N est l'enfant droit, la gauche et la droite devraient être inversées.*
+
+### Cas 2 : S est rouge
+
+* Si S est rouge:
+  * Si N est l'enfant gauche de P :
+    * Faire une rotation droite-gauche sous P.
+  * Sinon N est l'enfant droit de P :
+    * Faire une rotation gauche-droite sous P.
+  * Changer la couleur de P pour rouge.
+  * Changer la couleur de S pour noir.
+* Passer au cas 3.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Red-black_tree_delete_case_2_as_svg.svg" width="619" height="235">
+
+### Cas 3 : P, S, S<sub>L</sub> et S<sub>R</sub> sont noirs
+
+* Si P, S, S<sub>L</sub> et S<sub>R</sub> sont noirs
+  * Changer la couleur de S pour rouge.
+  * Revenir au cas 1.
+* Sinon passer au cas 4.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Red-black_tree_delete_case_3_as_svg.svg" width="623" height="239">
+
+### Cas 4 : P est rouge, S, S<sub>L</sub> et S<sub>R</sub> sont noirs
+
+* Si P est rouge, S, S<sub>L</sub> et S<sub>R</sub> sont noirs
+  * Changer la couleur de S pour rouge.
+  * Changer la couleur de P pour noir.
+* Sinon passer au cas 5.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Red-black_tree_delete_case_4_as_svg.svg" width="624" height="237">
+
+### Cas 5 : S est noir,  S<sub>L</sub> est rouge, S<sub>R</sub> est noir
+
+* Si S est noir :
+  * Si N est l'enfant gauche de P, S<sub>L</sub> est rouge et S<sub>R</sub> est noir :
+    * Faire une rotation gauche-droite sous S.
+    * Changer la couleur de S pour rouge.
+    * Change la couleur de S<sub>L</sub> pour noir.
+  * Sinon si  N est l'enfant droit de P, S<sub>L</sub> est noir et S<sub>R</sub> est rouge :
+    * Faire une rotation droite-gauche sous S.
+    * Changer la couleur de S pour rouge.
+    * Change la couleur de S<sub>R</sub> pour noir.
+* Sinon vérifier cas de droite...
+* Sinon passer au cas 6.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Red-black_tree_delete_case_5_as_svg.svg" width="453" height="258">
+
+### Cas 6
+
+* Changer la couleur de S pour celle de P.
+* Changer la couleur de P pour noir.
+* Si N est l'enfant gauche de P :
+  * Faire une rotation droite-gauche sous P.
+  * Changer la couleur de S<sub>R</sub> pour noir.
+* Sinon, N est l'enfant droit de P :
+  * Faire une rotation gauche-droite sous P.
+  * Changer la couleur de S<sub>L</sub> pour noir.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Red-black_tree_delete_case_6_as_svg.svg" width="622" height="246">

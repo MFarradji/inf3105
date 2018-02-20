@@ -25,6 +25,7 @@
 ## Arbre rouge-noir
 * [Arbre rouge-noir - Wikipédia](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
 * [Théorie](/theorie/arbre-rouge-noir)
+* [Tushar Roy - YouTube](https://www.youtube.com/watch?v=CTvfzU_uNKE&t=888s)
 * [Exercices](/exercices/arbre-rouge-noir)
 * [Visualisation](http://www.cs.armstrong.edu/liang/animation/web/RBTree.html)
 

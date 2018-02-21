@@ -1,29 +1,30 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Arbre rouge-noir](#arbre-rouge-noir)
+  - [Complexité temporelle](#complexit%C3%A9-temporelle)
+  - [Propriétés](#propri%C3%A9t%C3%A9s)
+  - [Exemple](#exemple)
+  - [Notation](#notation)
+  - [Insertion](#insertion)
+    - [Cas 1 : N est la racine de l'arbre](#cas-1--n-est-la-racine-de-larbre)
+    - [Cas 2 : P est noir](#cas-2--p-est-noir)
+    - [Cas 3 : P est rouge et U est rouge](#cas-3--p-est-rouge-et-u-est-rouge)
+    - [Cas 4 : P est rouge et U est noir](#cas-4--p-est-rouge-et-u-est-noir)
+  - [Supression](#supression)
+    - [Cas 1 : N est la racine de l'arbre](#cas-1--n-est-la-racine-de-larbre-1)
+    - [Cas 2 : S est rouge](#cas-2--s-est-rouge)
+    - [Cas 3](#cas-3)
+    - [Cas 4](#cas-4)
+    - [Cas 5](#cas-5)
+    - [Cas 6](#cas-6)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Arbre rouge-noir
 
 Un arbre rouge-noir est un arbre binare de recherche (ABR) balancé.
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-
-- [Complexité temporelle](#complexit%C3%A9-temporelle)
-- [Propriétés](#propri%C3%A9t%C3%A9s)
-- [Exemple](#exemple)
-- [Notation](#notation)
-- [Insertion](#insertion)
-  - [Cas 1 : N est la racine de l'arbre](#cas-1--n-est-la-racine-de-larbre)
-  - [Cas 2 : P est noir](#cas-2--p-est-noir)
-  - [Cas 3 : P est rouge et U est rouge](#cas-3--p-est-rouge-et-u-est-rouge)
-  - [Cas 4 : P est rouge et U est noir](#cas-4--p-est-rouge-et-u-est-noir)
-- [Supression](#supression)
-  - [Cas 1 : N est la racine de l'arbre](#cas-1--n-est-la-racine-de-larbre-1)
-  - [Cas 2 : S est rouge](#cas-2--s-est-rouge)
-  - [Cas 3](#cas-3)
-  - [Cas 4](#cas-4)
-  - [Cas 5](#cas-5)
-  - [Cas 6](#cas-6)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Complexité temporelle
 | Algorithme | Complexité |

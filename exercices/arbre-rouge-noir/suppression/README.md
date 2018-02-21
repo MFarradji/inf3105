@@ -22,7 +22,9 @@ Supprimer -10 de l'arbre rouge-noir suivant.
 Supprimer -10 de l'arbre rouge-noir suivant.
 
 **Avant**
+
 <img src="cas3a.png">
 
 **Après**
+
 <img src="cas3b.png">

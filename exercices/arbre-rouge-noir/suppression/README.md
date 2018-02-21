@@ -17,3 +17,12 @@ Supprimer -10 de l'arbre rouge-noir suivant.
 
 **Après**
 <img src="cas6b.png">
+
+## Cas 3 + Cas 1
+Supprimer -10 de l'arbre rouge-noir suivant.
+
+**Avant**
+<img src="cas3a.png">
+
+**Après**
+<img src="cas3b.png">

@@ -140,7 +140,7 @@ Dans tous les cas, passer à l'étape 2 en prenant P comme noeud courant.
 
 * Si P, S, S<sub>L</sub> et S<sub>R</sub> sont noirs :
   * Changer la couleur de S pour rouge.
-  * Revenir au cas 1.
+  * Revenir au cas 1 en prenant le parent de N comme nouveau N.
 * Sinon passer au cas 4.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Red-black_tree_delete_case_3_as_svg.svg" width="623" height="239">

@@ -28,3 +28,14 @@ Supprimer -10 de l'arbre rouge-noir suivant.
 **Après**
 
 <img src="cas3b.png">
+
+## Cas 3 + Cas 5 + Cas 6
+Supprimer -40 de l'arbre rouge-noir suivant.
+
+**Avant**
+
+<img src="cas3c.png">
+
+**Après**
+
+<img src="cas3d.png">

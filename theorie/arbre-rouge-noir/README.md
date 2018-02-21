@@ -15,7 +15,7 @@
   - [Supression](#supression)
     - [Cas 1 : N est la racine de l'arbre](#cas-1--n-est-la-racine-de-larbre-1)
     - [Cas 2 : S est rouge](#cas-2--s-est-rouge)
-    - [Cas 3 : P, S, S<sub>L</sub> et S<sub>R</sub> sont noirs](#cas-3--p-s-ssublsub-et-ssubrsub-sont-noirs)
+    - [Cas 3](#cas-3)
     - [Cas 4 : P est rouge, S, S<sub>L</sub> et S<sub>R</sub> sont noirs](#cas-4--p-est-rouge-s-ssublsub-et-ssubrsub-sont-noirs)
     - [Cas 5](#cas-5)
     - [Cas 6](#cas-6)
@@ -136,7 +136,7 @@ Dans tous les cas, passer à l'étape 2 en prenant P comme noeud courant.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Red-black_tree_delete_case_2_as_svg.svg" width="619" height="235">
 
-### Cas 3 : P, S, S<sub>L</sub> et S<sub>R</sub> sont noirs
+### Cas 3
 
 * Si P, S, S<sub>L</sub> et S<sub>R</sub> sont noirs :
   * Changer la couleur de S pour rouge.

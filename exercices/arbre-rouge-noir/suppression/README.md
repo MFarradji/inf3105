@@ -41,7 +41,7 @@ Supprimer -40 de l'arbre rouge-noir suivant.
 <img src="cas3d.png">
 
 ## Cas 2 + Cas 4
-Supprimer -10 de l'arbre rouge-noir suivant en utilisant le sucesseur comme remplaçant.
+Supprimer 10 de l'arbre rouge-noir suivant en utilisant le sucesseur comme remplaçant.
 
 **Avant**
 

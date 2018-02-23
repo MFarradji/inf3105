@@ -23,13 +23,18 @@ bool ArbreAVL<T>::egal(Noeud* n1, Noeud* n2) const {
 ## 2.2 Arbre AVL minimal
 
 suite de Fibonnaci
+
 où n = nombre de noeuds
+
 et h = hauteur de l'arbre
+
+```
 n(h) = {
   0 si h = 0
   1 si h = 1
   n(h - 1) + n(h - 2) + 1 si h >= 2
 }
+```
 
 n(0) = 0
 
@@ -91,5 +96,5 @@ class ArbreAVL{
 
 ## 2.6 Minimum et maximum dans un Arbre-B
 
-minimum : O(log n)
-maximum : O(log n)
+* minimum : O(log n)
+* maximum : O(log n)

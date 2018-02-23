@@ -1,4 +1,4 @@
-# 1.1 C++ (2 points)
+# 1.1 C++
 
 Le programme affiche la ligne suivante :
 1 3 5 7 5 ? ? ? : 16

@@ -24,9 +24,11 @@
 
 # Arbre rouge-noir
 
-Un arbre rouge-noir est un arbre binare de recherche (ABR) balancé.
+Un arbre rouge-noir est un arbre binaire de recherche (ABR) balancé.
 
 ## Complexité temporelle
+n correspond au nombre noeuds dans l'arbre.
+
 | Algorithme | Complexité |
 | :---: | :---: |
 | Recherche | O(log n) |
@@ -38,7 +40,7 @@ Un arbre rouge-noir est un arbre binare de recherche (ABR) balancé.
 2. La racine est noire.
 3. Toutes les sentinelles (NIL) sont noires.
 4. Si un noeud est rouge, alors ses 2 enfants sont noirs.
-5. Chaque chemin partant d'un noeud vers ses sentinelles descendantes contient le même nombre de noeuds noirs (hauteur noire).
+5. Chaque chemin partant d'un noeud vers ses sentinelles descendantes contient le même nombre de noeuds noirs.
 
 ## Exemple
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Red-black_tree_example.svg" width="675" height="325">
@@ -48,7 +50,7 @@ Un arbre rouge-noir est un arbre binare de recherche (ABR) balancé.
 | :---: | :---: |
 | N | noeud courant |
 | P | noeud parent de N |
-| G | noeud grandparent de N (parent de P) |
+| G | noeud grand-parent de N (parent de P) |
 | S | noeud frère de N (enfant de P) |
 | U | noeud oncle de N (enfant de G) |
 | S<sub>L</sub> | enfant gauche de S |

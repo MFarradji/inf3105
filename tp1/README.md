@@ -13,11 +13,8 @@ main() {
     Sinon si la chaîne n'est pas vide:
       Ajouter la chaîne dans la ligne
       Vider la chaîne
-      Si le caractère est une fin de ligne:
-        Traiter la ligne
-        Vider la ligne
+    Si le caractère est une fin de ligne:
+      Traiter la ligne
+      Vider la ligne
 }
 ```
-
-## Recherche avec l'étoile de Kleene (cas général)
-indice: programmation dynamique

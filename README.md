@@ -25,8 +25,8 @@
 ## Arbre rouge-noir
 * [Arbre rouge-noir - Wikipédia](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
 * [Théorie](/arbre-rouge-noir)
-* [Tushar Roy - YouTube](https://www.youtube.com/watch?v=CTvfzU_uNKE&t=888s)
 * [Exercices](/exercices/arbre-rouge-noir)
+* [Tushar Roy - YouTube](https://www.youtube.com/watch?v=CTvfzU_uNKE&t=888s)
 * [Visualisation](http://www.cs.armstrong.edu/liang/animation/web/RBTree.html)
 
 ## Graphes
@@ -35,7 +35,6 @@
 * [Parcours en largeur - CodinGame](https://www.codingame.com/learn/BFS)
 * [Algorithme de Dijkstra - Tech.io](https://tech.io/playgrounds/1608/shortest-paths-with-dijkstras-algorithm/introduction)
 * [Algorithme de Dijkstra - Wikipédia](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
-* [A* - Wikipédia](https://en.wikipedia.org/wiki/A*_search_algorithm)
 
 ## Références
 * [Éric Beaudry](http://ericbeaudry.ca/INF3105/)

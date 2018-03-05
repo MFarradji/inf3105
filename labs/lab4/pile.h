@@ -3,7 +3,8 @@
   UQAM / Département d'informatique
 */
 
-#pragma once
+#if !defined(PILE_H)
+#define PILE_H
 
 #include "assert.h"
 
@@ -34,7 +35,7 @@ class Pile {
         Cellule(const T& e, Cellule* c);
         Cellule(const T& e);
         T contenu;
-        Cellule* suivante;
+        Cellule* suivante = nullptr;
     };
 
     Cellule* sommet;
@@ -79,14 +80,10 @@ void Pile<T>::vider() {
 }
 
 template <class T>
-Pile<T>::Cellule::Cellule(const T& e, Cellule* c) : suivante(c) {
-  contenu = e;
-}
+Pile<T>::Cellule::Cellule(const T& e, Cellule* c) : contenu(e), suivante(c) {}
 
 template <class T>
-Pile<T>::Cellule::Cellule(const T& e) {
-  contenu = e;
-}
+Pile<T>::Cellule::Cellule(const T& e) : contenu(e) {}
 
 template <class T>
 void Pile<T>::empiler(const T& e) {
@@ -145,3 +142,6 @@ void Pile<T>::copier(const Pile<T>& autre) {
     c->suivante = nullptr;
   }
 }
+
+#endif
+

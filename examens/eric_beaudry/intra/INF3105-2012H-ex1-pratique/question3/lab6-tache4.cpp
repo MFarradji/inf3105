@@ -127,7 +127,7 @@ double Historique::calculerMoyenne(double debut, double fin) const {
       d2 = (*iter).date;
       t2 = (*iter).temperature;
     }
-    somme += ((t2 + t1) / 2.0) * (d2 - d1);
+    somme += ((t2 + t1) / 2.0) * (d2 - d1); // moyenne pondérée
   }
-  return somme / (fin - debut); // moyenne pondérée
+  return somme / (fin - debut);
 }

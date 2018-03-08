@@ -36,6 +36,9 @@
 * [Algorithme de Dijkstra - Tech.io](https://tech.io/playgrounds/1608/shortest-paths-with-dijkstras-algorithm/introduction)
 * [Algorithme de Dijkstra - Wikipédia](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 
+## Table de Hachage
+* [Hachage](http://www.eternallyconfuzzled.com/tuts/algorithms/jsw_tut_hashing.aspx)
+
 ## Références
 * [Éric Beaudry](http://ericbeaudry.ca/INF3105/)
 * [Bruno Malenfant](http://www.labunix.uqam.ca/~malenfant_b/inf3105/inf3105.html)

@@ -30,8 +30,7 @@ class Graphe {
     void extraireCompostantesConnexes() const;
 
   private:
-    struct Sommet{
-      // À compléter.
+    struct Sommet {
       set<S> voisins; // ensemble des sommets accessibles via les arêtes sortantes du sommet.
                       // Cela est légèrement différent de la page 120 des notes de cours.
                       // C'est voulu, car ici les arêtes ne sont pas étiquetées par un poids (ex: distance).
@@ -69,11 +68,10 @@ void Graphe<S>::parcoursRechercheProfondeur(const S& s) const {
     const S& suivant = pile.top();
     cout << suivant << ' ';
     pile.pop();
-    const set<S>& voisins = sommets.at(suivant).voisins;
-    for (typename set<S>::const_iterator it = voisins.begin(); it != voisins.end(); ++it) {
-      if (visites.count(*it) == 0) {
-        visites.insert(*it);
-        pile.push(*it);
+    for (auto voisin : sommets.at(suivant).voisins) {
+      if (visites.count(voisin) == 0) {
+        visites.insert(voisin);
+        pile.push(voisin);
       }
     }
   }

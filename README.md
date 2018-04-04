@@ -35,6 +35,7 @@
 * [Parcours en largeur - CodinGame](https://www.codingame.com/learn/BFS)
 * [Algorithme de Dijkstra - Tech.io](https://tech.io/playgrounds/1608/shortest-paths-with-dijkstras-algorithm/introduction)
 * [Algorithme de Dijkstra - Wikipédia](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+* [Algorithme de Prim - HackerEarth](https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/)
 
 ## Table de hachage
 * [Hachage](http://www.eternallyconfuzzled.com/tuts/algorithms/jsw_tut_hashing.aspx)

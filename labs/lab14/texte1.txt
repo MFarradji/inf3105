@@ -1,0 +1,4 @@
+Plusieurs livres sur les structures de données sont disponibles à la bibliothèque .
+Dans une bibliothèque , on retrouve beaucoup de livres .
+Marc a écrit des livres que je n ' ai pas pu trouver à la bibliothèque .
+Le cours INF3105 porte sur les structures de données .

@@ -167,7 +167,7 @@ Dans tous les cas, passer à l'étape 2 en prenant P comme noeud courant.
     * Faire une rotation droite-gauche sous S.
     * Changer la couleur de S pour rouge.
     * Change la couleur de S<sub>R</sub> pour noir.
-* Sinon passer au cas 6.
+* Passer au cas 6.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Red-black_tree_delete_case_5_as_svg.svg" width="453" height="258">
 

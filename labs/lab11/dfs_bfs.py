@@ -52,10 +52,9 @@ class Graph:
         visited = set()
         for node_id in self.nodes:
             if node_id not in visited:
-                print(node_id, end=' ')
-                # print("{ ", end='')
-                # self.bfs(node_id, visited)
-                # print("} ", end='')
+                print("{ ", end='')
+                self.bfs(node_id, visited)
+                print("} ", end='')
         print("}")
 
 def create_graph1():
@@ -118,7 +117,6 @@ def create_graph3():
 
 
 graphs = [create_graph1(), create_graph2(), create_graph3()]
-print(graphs[2].nodes)
 
 for i, graph in enumerate(graphs):
     print("graph #{}".format(i + 1))
@@ -126,9 +124,9 @@ for i, graph in enumerate(graphs):
     graph.dfs('a')
     graph.dfs('c')
     print("bfs")
-    graph.bfs('a')
+    graph.bfs('a', set())
     print()
-    graph.bfs('c')
+    graph.bfs('c', set())
     print()
     print("connected components")
     graph.extract_connected_components()

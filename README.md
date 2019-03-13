@@ -33,6 +33,7 @@
 * [Théorie des graphes - Tech.io](https://tech.io/playgrounds/5470/graph-theory-basics/basics)
 * [Parcours en profondeur - CodinGame](https://www.codingame.com/learn/DFS)
 * [Parcours en largeur - CodinGame](https://www.codingame.com/learn/BFS)
+* [Stack-based graph traversal ≠ depth first search](https://11011110.github.io/blog/2013/12/17/stack-based-graph-traversal.html)
 * [Algorithme de Dijkstra - Tech.io](https://tech.io/playgrounds/1608/shortest-paths-with-dijkstras-algorithm/introduction)
 * [Algorithme de Dijkstra - Wikipédia](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 * [Algorithme de Prim - HackerEarth](https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/)
